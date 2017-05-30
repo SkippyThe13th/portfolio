@@ -1,0 +1,20 @@
+This directory contains the source code and executables for my Dice City project.
+
+Background:
+This project was the result of my capstone project as a requirement for graduation from Truman State University.  The goal of the project
+being to aptly show my understanding and mastery of what I had learned in my 4 years of education in the Computer Science department.
+For my project, I chose to make an application that would surpass anything that would normally be assigned in a class in regards to 
+complexity.  To this end, I attempted to recreate the board game Dice City in a digital format, playable by up to 4 people wirelessly on 
+seperate machines as long as they are all connected to the same local network.  I was unable due to time constraints to finish my project,
+but as it stands the project in its current state shows evidence of the following:
+  -Object oriented design
+  -Basic networking in the form of server/client communication via sockets in a network
+  -Thorough documentation
+  -UI creation/design
+  
+General Information:
+This project was created completely using the Java programming language, in the Eclipse Neon IDE.  It was constructed over the course of
+about 2-3 months while also taking 14 credit hours worth of classes at Truman State University.  It is not a final product, but still 
+contains various features of the complete games, many of which are applicable to unimplemented features.
+
+Implemented Features:
