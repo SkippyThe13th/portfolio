@@ -2,3 +2,5 @@ This project is a simple game created at the end of my object oriented programmi
 slowly fall down. The object of the game is to keep the shapes from falling off the bottom of the screen for as long as possible by 
 clicking and dragging them with the mouse.  A score of sorts is displayed in a text field and rates the performance of the player based
 on how many shapes have fallen out of the window at each frame.
+
+The FallingShapesGame.jar is an executable version of the program if you would like to see the finished result of the project.
