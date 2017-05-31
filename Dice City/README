@@ -9,6 +9,7 @@ seperate machines as long as they are all connected to the same local network.  
 but as it stands the project in its current state shows evidence of the following:
   -Object oriented design
   -Basic networking in the form of server/client communication via sockets in a network
+  -Multithreading/parallel processing
   -Thorough documentation
   -UI creation/design
   
@@ -18,3 +19,26 @@ about 2-3 months while also taking 14 credit hours worth of classes at Truman St
 contains various features of the complete games, many of which are applicable to unimplemented features.
 
 Implemented Features:
+For those unfamiliar with the game of Dice City, the rulebook can be found online in a pdf format.  For those familiar with the rules,
+this project has many core features implemented into it.  They are as follows:
+ -The ability to use the abilities with dice on them
+ -The ability to attack bandit cards with any swords collected
+ -The ability to buy new locations with collected resources
+ -The ability to place newly bought locations in your city after purchasing them
+ -Excess resources and swords are discarded as per the game rules, and at appropriate times in the turn order
+ -Players are able to connect to the same game as long as they are on the same network (The default port number of 1331 is hard-coded
+    into the project as of the writing of this list)
+ -Players must wait for all other players to complete and signal the end of their turns before they can take another
+ -A mouse driven UI created using the Java Swing libraries
+ -The abilites of many of the basic locations in the game.  Sadly mroe advanced location abilites could not be implemented by the required
+    deadline
+
+Areas of Improvement:
+Since this project is incomplete, and was the first major project I attempted on my own, there are some things looking back that could be
+improved if I were to ever revisit or finish this project:
+ -Optimize "waiting" functions to be less intensive
+ -Refactor/more heavily test the multithreading of the server
+ -Use a different library or framework of some sort for the UI.  In general, Swing is great for smaller applications, but I found it
+    quickly became bloated and tedious to work with as this project grew in size compared to my original estimations.
+ -Optimize/refactor code used to listen for mouse events.  There are times when the program will "hang" in a sense where mouse input is
+    not quickly recognized, usually due to waiting functions checking certain values periodically.  This could be handled cleaner.
