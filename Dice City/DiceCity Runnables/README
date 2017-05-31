@@ -1,0 +1,23 @@
+INSTRUCTIONS FOR LAUNCHING THE APPLICATION:
+
+1.  Launch the Server jar file first.  Regardless of whether the game will be played alone or with more than one person, the server is
+    needed for the game to run.
+    
+2.  Once the server is running or waiting, then the game client jar file can be executed.  The default port (which is hard-coded into the 
+    server code as of the writing of this README) is 1331.  Make sure this port is open and accessable to the application on the network
+    it is being launched on.
+    
+3.  Once the game client is launched, you will be prompted for an IP and a Port.  Enter the IPv4 address of the device running the server
+    application, and the port 1331.  If the game client connects successfully, the text will change to display your player number, and a 
+    successful connection.  NOTE: only one player needs to run the server tool per game!
+    
+4.  Once all desired players have connected (there is a maximum of 4), only one player needs to press the Start Game button to launch the
+    game.  After a moment, the game screen should appear, and the first player should be able to right click on their dice and use location
+    abilities.
+    
+All actions in the game are made via mouse clicks.  To use dice, simply right click them and select an option (only location abilities are
+currently implemented).  To attack a bandit or buy a location during the appropriate steps, simply left click the cards.  Resources should
+be updated accordingly.  Newly bought locations (excluding harvest locations and regular armies) will disappear from the market and be put
+into a stack.  The player then can left click on any location in their city to replace it with the first location in the stack.  There is
+no indicator at first of who's turn it is, other than the ability to use dice.  As the game progresses, your dice will become visible once 
+it is your turn to play.
